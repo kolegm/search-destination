@@ -1,6 +1,6 @@
 {
-  "name": "search_destination",
-  "version": "0.0.1",
+  "name": "search-destination",
+  "version": "0.0.2",
   "description": "Search destination by name, address, point of interest or coordinates",
   "main": "index.js",
   "scripts": {
