@@ -1,0 +1,37 @@
+{
+  "name": "search_destination",
+  "version": "0.0.1",
+  "description": "Search destination by name, address, point of interest or coordinates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "search",
+    "destination",
+    "geocoder",
+    "place",
+    "address",
+    "name",
+    "coordinate",
+    "google",
+    "osm",
+    "open street map",
+    "yahoo",
+    "yandex",
+    "geoname",
+    "geonames",
+    "poi",
+    "point of interest"
+  ],
+  "dependencies": {
+    "underscore": "^1.6.0",
+    "search-google-geocode": "^0.0.3",
+    "search-geonames": "^0.0.1"
+  },
+  "author": { 
+    "name": "Oleg Kravchuk",
+    "email": "kolegm.real@gmail.com"
+  },
+  "license": "ISC"
+}
