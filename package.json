@@ -33,5 +33,9 @@
     "name": "Oleg Kravchuk",
     "email": "kolegm.real@gmail.com"
   },
+  "repository": { 
+    "type": "git",
+    "url": "git://github.com/kolegm/search_destination"
+  },
   "license": "ISC"
 }
