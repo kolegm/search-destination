@@ -1,6 +1,6 @@
 {
   "name": "search-destination",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Search destination by name, address, point of interest or coordinates",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   ],
   "dependencies": {
     "underscore": "^1.6.0",
-    "search-google-geocode": "^0.0.3",
+    "search-google-geocode": "^0.0.6",
     "search-geonames": "^0.0.1"
   },
   "author": { 

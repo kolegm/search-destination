@@ -27,4 +27,11 @@ SearchDestination.prototype.reverse = function (lat, lng, callback, options) {
   return this.getCommunicator().reverse(lat, lng, callback, options);
 };
 
+/*
+SearchDestination.on('begin', function () {});
+SearchDestination.on('process', function () {});
+SearchDestination.on('chunk', function () {});
+SearchDestination.on('end', function () {});
+*/
+
 module.exports = new SearchDestination();
