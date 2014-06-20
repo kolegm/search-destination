@@ -15,4 +15,34 @@ Search geographic destination by name or address, by location or point of intere
 // initialize searcher instance
 var searcher = require('search-destination');
 
+// request parameters
+const ADDRESS = 'Paris';
+const LATITUDE = '48.833330';
+const LONGITUDE = '2.333330';
+const LANGUAGE = 'en';
+
+// you can use Google options to manage result format
+var options = {
+  language: LANGUAGE
+}
+
+// use callback to return result from geocoding process
+function callback (error, result) {
+  if (error) console.log(error); // on error
+  console.log(result); // on success
+}
+
+/**
+ * used google by default.
+ * available: google, geonames, wiki
+ */
+//searcher.useProvider('wiki');
+
+// show information about searcher instance
+console.log(searcher.toString());
+
+// search deatination by address, place. or poi
+searcher.search(ADDRESS, callback, options);
+// search deatination by geographical coordinates
+searcher.reverse(LATITUDE, LONGITUDE, callback, options);
 ```
