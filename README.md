@@ -1,7 +1,6 @@
 ##search_destination
 ###General
-Node.js module for geocoding and reverse geocoding.
-
+Node.js module for geocoding and reverse geocoding.  
 Search geographic destination by name or address, by location or point of interest, by coordinates.
 
 ###Installation
