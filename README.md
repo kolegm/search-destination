@@ -8,7 +8,7 @@ Search geographic destination by name or address, by location or point of intere
 
 ###Used external modules as communicators for searching
 * [Search google geocode. Used Google geocoding API](https://github.com/kolegm/google-geocoder)
-* [Search geonames](https://github.com/kolegm/search-geonames)
+* [Search geonames. Used Geonames API](https://github.com/kolegm/search-geonames)
 
 ### Usage example
 ```javascript
@@ -34,7 +34,7 @@ function callback (error, result) {
 
 /**
  * used google by default.
- * available: google, geonames, wiki
+ * available: google, geonames, wiki (alias to geonames)
  */
 //searcher.useProvider('wiki');
 
