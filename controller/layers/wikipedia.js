@@ -16,4 +16,4 @@ Layer.prototype.reverse = function (lat, lng, callback, options) {
   Searcher.wikiFindNearBy(lat, lng, callback, options);
 }
 
-module.exports = new Layer();
+module.exports = Layer;

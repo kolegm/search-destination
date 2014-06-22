@@ -16,8 +16,7 @@ util.inherits(SearchDestination, Controller);
  * @access public
  */
 SearchDestination.prototype.search = function (address, callback, options) {
-console.log(this.getCommunicator());
-return this.getCommunicator().search(address, callback, options);
+  return this.getCommunicator().search(address, callback, options);
 };
 
 /**

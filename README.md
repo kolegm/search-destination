@@ -7,8 +7,8 @@ Search geographic destination by name or address, by location or point of intere
 >npm install search_destination [-S]
 
 ###Used external modules as communicators for searching
-* [Search google geocode. Used Google geocoding API](https://github.com/kolegm/google-geocoder)
-* [Search geonames. Used Geonames API](https://github.com/kolegm/search-geonames)
+* [Module search-google-geocode. Used Google geocoding API](https://github.com/kolegm/google-geocoder)
+* [Search search-geonames. Used Geonames API](https://github.com/kolegm/search-geonames)
 
 ### Usage example
 ```javascript
@@ -29,7 +29,7 @@ var options = {
 // use callback to return result from geocoding process
 function callback (error, result) {
   if (error) console.log(error); // on error
-  console.log(result); // on success
+  else console.log(result); // on success
 }
 
 /**

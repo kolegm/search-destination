@@ -11,28 +11,11 @@ var options = {
 
 function callback (error, result) {
   if (error) console.log(error);
-  console.log(result);
+  else console.log(result);
 }
 
 //searcher.useProvider('wiki');
 
-console.log(searcher.toString());
-
-console.log('search process');
-console.log('result in language: ' + LANGUAGE);
-console.log('by address: ' + ADDRESS);
-console.log('by geo coords: ' + LATITUDE + ', ' + LONGITUDE);
-
-searcher.search(
-  ADDRESS,
-  callback,
-  options
-);
-
-searcher.reverse(
-  LATITUDE,
-  LONGITUDE,
-  callback,
-  options
-);
+searcher.search(ADDRESS, callback, options);
+searcher.reverse(LATITUDE, LONGITUDE, callback, options);
 

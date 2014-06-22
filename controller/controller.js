@@ -66,8 +66,8 @@ Controller.prototype._getAllCommunicators = function () {
  * @access protected
  */
 Controller.prototype._initCommunicator = function () {
-  var communicator = require('./loader')(this._getProvider());
-  this.communicators[this._getProvider()] = communicator;
+  var Communicator = require('./loader')(this._getProvider());
+  this.communicators[this._getProvider()] = new Communicator();
 }
 
 /**
