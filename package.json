@@ -25,15 +25,16 @@
     "point of interest"
   ],
   "dependencies": {
-    "underscore": "^1.6.0",
-    "search-google-geocode": "^0.0.8",
-    "search-geonames": "^0.0.6"
+    "async": "^0.9.0",
+    "search-geonames": "0.0.x",
+    "search-google-geocode": "0.0.x",
+    "underscore": "^1.6.0"
   },
-  "author": { 
+  "author": {
     "name": "Oleg Kravchuk",
     "email": "kolegm.real@gmail.com"
   },
-  "repository": { 
+  "repository": {
     "type": "git",
     "url": "git://github.com/kolegm/search_destination"
   },
