@@ -94,7 +94,7 @@ Controller.prototype._checkCommunicatorWithError = function () {
  * @access protected
  */
 Controller.prototype._setProvider = function (name) {
-  this.provider = (name || '').toString();
+  this.provider = String.prototype.toLowerCase.apply(name);
 }
 
 /**

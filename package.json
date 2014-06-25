@@ -26,8 +26,8 @@
   ],
   "dependencies": {
     "async": "^0.9.0",
-    "search-geonames": "0.0.x",
-    "search-google-geocode": "0.0.x",
+    "search-geonames": "^0.0.6",
+    "search-google-geocode": "^0.0.8",
     "underscore": "^1.6.0"
   },
   "author": {

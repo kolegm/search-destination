@@ -14,8 +14,7 @@ function callback (error, result) {
   else console.log(result);
 }
 
-//searcher.useProvider('wiki');
+searcher.useProvider('geonames');
 
 searcher.search(ADDRESS, callback, options);
 searcher.reverse(LATITUDE, LONGITUDE, callback, options);
-
