@@ -14,7 +14,8 @@ function callback (error, result) {
   else console.log(result);
 }
 
-searcher.useProvider('geonames', { username: "test" } );
+//searcher.useProvider('geonames', { username: "test" } );
+searcher.useProvider('osm');
 
 searcher.search(ADDRESS, callback, options);
 searcher.reverse(LATITUDE, LONGITUDE, callback, options);
