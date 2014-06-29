@@ -1,5 +1,5 @@
 var util = require('util');
-var Searcher = require('search-google-geocoder');
+var Searcher = require('search-google-geocode');
 var BaseLayer = require('./base');
 
 function Layer(options) {
