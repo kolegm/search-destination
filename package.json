@@ -1,6 +1,6 @@
 {
   "name": "search-destination",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Search destination by name, address, point of interest or coordinates",
   "main": "index.js",
   "scripts": {
@@ -25,9 +25,8 @@
     "point of interest"
   ],
   "dependencies": {
-    "async": "^0.9.0",
-    "search-geonames": "^0.0.6",
-    "search-google-geocode": "^0.0.8",
+    "search-geonames": "^0.0.7",
+    "search-google-geocode": "^0.0.9",
     "underscore": "^1.6.0"
   },
   "author": {
@@ -36,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kolegm/search_destination"
+    "url": "git://github.com/kolegm/search-destination"
   },
   "license": "ISC"
 }
