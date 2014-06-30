@@ -34,7 +34,7 @@ function callback (error, result) {
 
 /**
  * used google by default.
- * available: google, geonames, wiki (alias to geonames)
+ * available: google, geonames, wiki (alias to geonames), osm (open street map)
  */
 //searcher.useProvider('wiki');
 
