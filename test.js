@@ -1,4 +1,5 @@
-var searcher = require('./index.js');
+var util = require('util');
+var searcher = require('./');
 
 const ADDRESS = 'Paris';
 const LATITUDE = '48.833330';
@@ -14,7 +15,7 @@ function callback (error, result) {
   else console.log(result);
 }
 
-//searcher.useProvider('geonames', { username: "test" } );
+//searcher.useProvider('wiki', { username: "demo" } );
 searcher.useProvider('osm');
 
 searcher.search(ADDRESS, callback, options);

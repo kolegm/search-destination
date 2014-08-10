@@ -9,6 +9,7 @@ Search geographic destination by name or address, by location or point of intere
 ###Used external modules as communicators for searching
 * [Module search-google-geocode. Used Google geocoding API](https://github.com/kolegm/google-geocoder)
 * [Search search-geonames. Used Geonames API](https://github.com/kolegm/search-geonames)
+* [Search search-osm-geocode. Used Open Street Map (OSM) API](https://github.com/kolegm/search-osm-geocode)
 
 ### Usage example
 ```javascript
