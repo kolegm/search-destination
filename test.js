@@ -1,4 +1,3 @@
-var util = require('util');
 var searcher = require('./');
 
 const ADDRESS = 'Paris';
