@@ -7,9 +7,9 @@ Search geographic destination by name or address, by location or point of intere
 >npm install search-destination [-S]
 
 ###Used external modules as communicators for searching
-* [Module search-google-geocode. Used Google geocoding API](https://github.com/kolegm/google-geocoder)
-* [Module search-geonames. Used Geonames API](https://github.com/kolegm/search-geonames)
-* [Module search-osm-geocode. Used Open Street Map (OSM) API](https://github.com/kolegm/search-osm-geocode)
+* [Module `search-google-geocode`. Used Google geocoding API](https://github.com/kolegm/google-geocoder)
+* [Module `search-geonames`. Used Geonames API](https://github.com/kolegm/search-geonames)
+* [Module `search-osm-geocode`. Used Open Street Map (OSM) API](https://github.com/kolegm/search-osm-geocode)
 
 ### Usage example
 ```javascript
